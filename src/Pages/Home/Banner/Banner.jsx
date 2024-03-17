@@ -1,31 +1,20 @@
-import React from 'react';
-import AwesomeSlider from 'react-awesome-slider';
-import 'react-awesome-slider/dist/styles.css';
-import banner2 from '../../../assets/banner2.png'
+import React from "react";
+import AwesomeSlider from "react-awesome-slider";
+import "react-awesome-slider/dist/styles.css";
+import banner from "../../../assets/banner.png";
+import { Link } from "react-router-dom";
 
 const Banner = () => {
-    return (
-        <div className='my-20 flex justify-between gap-20 items-center'>
-
-           
-            <div>
-            <a className="btn">All Tests</a>
-            </div>
-            <div className='w-[70%]'>
-            <img className='w-screen' src={banner2} alt="" />
-            </div>
- 
-
-{/* 
-  <AwesomeSlider>
-    <div className='w-screen'><img className='' src={banner1} alt="" /></div>
-    <div>2</div>
-    <div>3</div>
-    <div>4</div>
-  </AwesomeSlider> */}
-
-        </div>
-    );
+  return (
+    <div className="my-10 relative">
+      <img src={banner} alt="" />
+      <Link to="/allTests">
+      <button className="btn w-40  shadow-2xl rounded-none absolute bottom-4 right-9 font-semibold text-3xl">
+        All Tests
+      </button>
+      </Link>
+    </div>
+  );
 };
 
 export default Banner;

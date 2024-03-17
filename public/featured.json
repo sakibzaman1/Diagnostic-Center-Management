@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "test_name": "Complete Blood Count (CBC)",
+    "price": 50.00,
+    "image": "https://i.ibb.co/g7gdzb7/feature.png"
+  },
+  {
+    "id": 2,
+    "test_name": "Blood Glucose Test",
+    "price": 30.00,
+    "image": "https://i.ibb.co/DD2Pqwp/feature1.png"
+  },
+  {
+    "id": 3,
+    "test_name": "Lipid Profile",
+    "price": 60.00,
+    "image": "https://i.ibb.co/cYwgfZQ/feature2.png"
+  },
+  {
+    "id": 4,
+    "test_name": "Liver Function Test (LFT)",
+    "price": 70.00,
+    "image": "https://i.ibb.co/cYwgfZQ/feature2.png"
+  },
+  {
+    "id": 5,
+    "test_name": "Kidney Function Test (KFT)",
+    "price": 65.00,
+    "image": "https://i.ibb.co/DD2Pqwp/feature1.png"
+  },
+  {
+    "id": 6,
+    "test_name": "Thyroid Function Test (TFT)",
+    "price": 55.00,
+    "image": "https://i.ibb.co/g7gdzb7/feature.png"
+  }
+]

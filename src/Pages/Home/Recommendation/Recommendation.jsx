@@ -1,18 +1,47 @@
-import React from "react";
-import AwesomeSlider from "react-awesome-slider";
-import "react-awesome-slider/dist/styles.css";
+
+import React, { useRef, useState } from 'react';
+// Import Swiper React components
+import { Swiper, SwiperSlide } from 'swiper/react';
+import sliderImage from '../../../assets/diagnostic_banner.jpg'
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
+
+// import './styles.css';
+
+// import required modules
+import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 
 const Recommendation = () => {
   return (
-    <div>
-      
-      <AwesomeSlider>
-        <div>1</div>
-        <div>2</div>
-        <div>3</div>
-        <div>4</div>
-      </AwesomeSlider>
-    </div>
+    <>
+      <Swiper
+        spaceBetween={30}
+        centeredSlides={true}
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
+        pagination={{
+          clickable: true,
+        }}
+        navigation={true}
+        modules={[Autoplay, Pagination, Navigation]}
+        className="mySwiper"
+      >
+        <SwiperSlide><img className='mx-auto' src={sliderImage} alt="" /></SwiperSlide>
+        <SwiperSlide><img className='mx-auto' src={sliderImage} alt="" /></SwiperSlide>
+        <SwiperSlide><img className='mx-auto' src={sliderImage} alt="" /></SwiperSlide>
+        <SwiperSlide><img className='mx-auto' src={sliderImage} alt="" /></SwiperSlide>
+        <SwiperSlide><img className='mx-auto' src={sliderImage} alt="" /></SwiperSlide>
+        <SwiperSlide><img className='mx-auto' src={sliderImage} alt="" /></SwiperSlide>
+        <SwiperSlide><img className='mx-auto' src={sliderImage} alt="" /></SwiperSlide>
+        <SwiperSlide><img className='mx-auto' src={sliderImage} alt="" /></SwiperSlide>
+        <SwiperSlide><img className='mx-auto' src={sliderImage} alt="" /></SwiperSlide>
+      </Swiper>
+    </>
   );
 };
 

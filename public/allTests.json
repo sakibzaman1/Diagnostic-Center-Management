@@ -1,0 +1,75 @@
+[
+    {
+      "id": 1,
+      "title": "Comprehensive Health Check",
+      "short_description": "Our most extensive health check package covering a wide range of tests.",
+      "image": "comprehensive_health_check.jpg",
+      "available_dates": ["2024-03-20", "2024-03-25", "2024-03-30"],
+      "slots": ["9:00 AM", "11:00 AM", "2:00 PM"],
+      "price": 250.00
+    },
+    {
+      "id": 2,
+      "title": "Basic Blood Panel",
+      "short_description": "Essential blood tests to assess your overall health.",
+      "image": "basic_blood_panel.jpg",
+      "available_dates": ["2024-03-21", "2024-03-26", "2024-04-02"],
+      "slots": ["10:00 AM", "12:00 PM", "3:00 PM"],
+      "price": 80.00
+    },
+    {
+      "id": 3,
+      "title": "Cardiac Risk Assessment",
+      "short_description": "Evaluate your risk of heart disease with advanced cardiac tests.",
+      "image": "cardiac_risk_assessment.jpg",
+      "available_dates": ["2024-03-22", "2024-03-27", "2024-04-03"],
+      "slots": ["9:30 AM", "11:30 AM", "2:30 PM"],
+      "price": 150.00
+    },
+    {
+      "id": 4,
+      "title": "Diabetes Management Panel",
+      "short_description": "Comprehensive tests to monitor and manage diabetes effectively.",
+      "image": "diabetes_management_panel.jpg",
+      "available_dates": ["2024-03-23", "2024-03-28", "2024-04-04"],
+      "slots": ["8:00 AM", "10:00 AM", "1:00 PM"],
+      "price": 120.00
+    },
+    {
+      "id": 5,
+      "title": "Women's Wellness Package",
+      "short_description": "Tailored health checks specifically designed for women's health needs.",
+      "image": "womens_wellness_package.jpg",
+      "available_dates": ["2024-03-24", "2024-03-29", "2024-04-05"],
+      "slots": ["9:30 AM", "11:30 AM", "2:30 PM"],
+      "price": 180.00
+    },
+    {
+      "id": 6,
+      "title": "Senior Health Assessment",
+      "short_description": "Specialized health checks for seniors to monitor and maintain health.",
+      "image": "senior_health_assessment.jpg",
+      "available_dates": ["2024-03-25", "2024-03-30", "2024-04-06"],
+      "slots": ["10:00 AM", "12:00 PM", "3:00 PM"],
+      "price": 200.00
+    },
+    {
+      "id": 7,
+      "title": "Allergy Testing Panel",
+      "short_description": "Identify and manage allergies with comprehensive allergy testing.",
+      "image": "allergy_testing_panel.jpg",
+      "available_dates": ["2024-03-26", "2024-03-31", "2024-04-07"],
+      "slots": ["9:00 AM", "11:00 AM", "2:00 PM"],
+      "price": 100.00
+    },
+    {
+      "id": 8,
+      "title": "Gastrointestinal Panel",
+      "short_description": "Evaluate gastrointestinal health with specialized tests.",
+      "image": "gastrointestinal_panel.jpg",
+      "available_dates": ["2024-03-27", "2024-04-01", "2024-04-08"],
+      "slots": ["8:30 AM", "10:30 AM", "1:30 PM"],
+      "price": 160.00
+    }
+  ]
+  
