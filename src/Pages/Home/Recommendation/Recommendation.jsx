@@ -29,7 +29,7 @@ const Recommendation = () => {
         }}
         navigation={true}
         modules={[Autoplay, Pagination, Navigation]}
-        className="mySwiper"
+        className="mySwiper mb-20"
       >
         <SwiperSlide><img className='mx-auto' src={sliderImage} alt="" /></SwiperSlide>
         <SwiperSlide><img className='mx-auto' src={sliderImage} alt="" /></SwiperSlide>

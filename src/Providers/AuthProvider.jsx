@@ -82,7 +82,7 @@ const AuthProvider = ({ children }) => {
 
   const authInfo = {
     user,
-    loading,createUser, signIn, logOut, updateUser, signInWithGoogle
+    loading,createUser, signIn, logOut, updateUser, signInWithGoogle, goToTop
   };
 
   return (

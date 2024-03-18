@@ -130,7 +130,7 @@ const Login = () => {
               </button>
             </div>
 
-            <div className="flex flex-col justify-between mt-10 mb-6 space-y-6 lg:space-y-0">
+            {/* <div className="flex flex-col justify-between mt-10 mb-6 space-y-6 lg:space-y-0">
               <button
                 onClick={handleGoogleSignIn}
                 className="text-black btn btn-outline rounded-none bg-transparent hover:rounded-none capitalize"
@@ -138,7 +138,7 @@ const Login = () => {
                 <FcGoogle></FcGoogle>
                 Sign in with Google
               </button>
-            </div>
+            </div> */}
 
             <div className="text-center pt-6">
               <small className="font-medium text-black">

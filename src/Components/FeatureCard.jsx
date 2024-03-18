@@ -12,9 +12,9 @@ const FeatureCard = ({feature}) => {
         <div className="card-body items-center text-center">
           <h2 className="card-title">{feature?.test_name}</h2>
           <p>{feature?.price} $</p>
-          <div className="card-actions">
+          {/* <div className="card-actions">
             <button className="btn">Details</button>
-          </div>
+          </div> */}
         </div>
         </div>
     );
