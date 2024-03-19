@@ -28,7 +28,7 @@ const AddTest = () => {
 
         // send data to the server
 
-        fetch('http://localhost:5000/allTests', {
+        fetch('https://diagnostic-center-management-server-rho.vercel.app/allTests', {
             method: 'POST',
             headers: {
                 'content-type' : 'application/json'

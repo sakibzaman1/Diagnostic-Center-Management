@@ -6,7 +6,7 @@ const UserProfile = () => {
     const {user} = useContext(AuthContext);
     const users = useLoaderData();
     console.log(users)
-    const filteredUser = users?.find(user=> user?.email?.toLowerCase() === user?.email?.toLowerCase());
+    const filteredUser = users?.find(theUser=> theUser?.email?.toLowerCase() === user?.email?.toLowerCase());
     console.log(filteredUser)
     return (
         <div>

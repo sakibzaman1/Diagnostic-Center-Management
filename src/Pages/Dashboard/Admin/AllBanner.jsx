@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 const AllBanner = () => {
     const [banners, setBanners] = useState([]);
     useEffect( ()=> {
-        fetch('http://localhost:5000/banners')
+        fetch('https://diagnostic-center-management-server-rho.vercel.app/banners')
         .then(res=> res.json())
         .then(data=> {
           setBanners(data)

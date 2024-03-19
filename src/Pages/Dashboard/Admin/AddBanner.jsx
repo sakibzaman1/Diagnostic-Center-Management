@@ -17,7 +17,7 @@ const AddBanner = () => {
     
             // send data to the server
     
-            fetch('http://localhost:5000/banners', {
+            fetch('https://diagnostic-center-management-server-rho.vercel.app/banners', {
                 method: 'POST',
                 headers: {
                     'content-type' : 'application/json'

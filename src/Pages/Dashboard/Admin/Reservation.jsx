@@ -4,7 +4,7 @@ const Reservation = () => {
 
     const [reservations, setReservations] = useState([]);
     useEffect( ()=> {
-        fetch('http://localhost:5000/myAppointments')
+        fetch('https://diagnostic-center-management-server-rho.vercel.app/myAppointments')
         .then(res=> res.json())
         .then(data=> {
           setReservations(data)
