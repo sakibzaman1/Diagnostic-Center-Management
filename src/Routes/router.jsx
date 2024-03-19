@@ -54,7 +54,7 @@ import Reservation from "../Pages/Dashboard/Admin/Reservation";
         {
           path: '/testDetails/:id',
           element: <TestDetails></TestDetails>,
-          loader: ({params})=> fetch(`http://localhost:5000/allTests/${params.id}`)
+          loader: ({params})=> fetch(`https://diagnostic-center-management-server-rho.vercel.app/allTests/${params.id}`)
         },
         {
           path: '/login',
@@ -79,12 +79,12 @@ import Reservation from "../Pages/Dashboard/Admin/Reservation";
             {
               path: 'userAppointments',
               element: <UserAppointments></UserAppointments>,
-              loader: ()=> fetch(`http://localhost:5000/myAppointments`)
+              loader: ()=> fetch(`https://diagnostic-center-management-server-rho.vercel.app/myAppointments`)
             },
             {
               path: 'userProfile',
               element: <UserProfile></UserProfile>,
-              loader: ()=> fetch(`http://localhost:5000/users`)
+              loader: ()=> fetch(`https://diagnostic-center-management-server-rho.vercel.app/users`)
             },
             {
               path: 'userTestResults',
@@ -93,7 +93,7 @@ import Reservation from "../Pages/Dashboard/Admin/Reservation";
             {
               path: 'allUsers',
               element : <AllUsers></AllUsers>,
-              loader: ()=> fetch(`http://localhost:5000/users`)
+              loader: ()=> fetch(`https://diagnostic-center-management-server-rho.vercel.app/users`)
             },
             {
               path: 'allTest',

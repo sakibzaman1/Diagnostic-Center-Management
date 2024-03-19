@@ -5,7 +5,7 @@ const AllTests = () => {
 
     const [tests, setTests] = useState([]);
     useEffect( ()=> {
-        fetch('http://localhost:5000/allTests')
+        fetch('https://diagnostic-center-management-server-rho.vercel.app/allTests')
         .then(res=> res.json())
         .then(data=> {
           setTests(data)
@@ -15,7 +15,7 @@ const AllTests = () => {
 
     return (
         <div>
-            <h1>All Tests here{tests?.length}</h1>
+        
             <div className='grid grid-cols-3 gap-6'>
                 {
                     tests?.map(test=> <TestCard test={test}></TestCard>)

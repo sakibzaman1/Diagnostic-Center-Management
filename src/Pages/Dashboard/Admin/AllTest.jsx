@@ -1,9 +1,10 @@
 import React from 'react';
+import AllTests from '../../AllTests/AllTests';
 
 const AllTest = () => {
     return (
         <div>
-            <h1>All Test</h1>
+            <AllTests></AllTests>
         </div>
     );
 };

@@ -25,7 +25,7 @@ const UserAppointments = () => {
            axiosSecure.delete(`/myAppointments/${id}`)
            .then(res=> {
             if(res.data.deletedCount > 0){
-                refetch();
+                // refetch();
                 swal('Appointment Canceled')
             }
            })
